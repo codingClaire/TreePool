@@ -1,0 +1,6 @@
+oj/
+data/
+loss/
+.vscode/
+
+*.pyc

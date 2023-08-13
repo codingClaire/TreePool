@@ -1,0 +1,46 @@
+{
+    "data_path": "data/OJ104/oj_ast_graph.pkl.gz",
+    "dataset_name": "oj104",
+    "valid_ratio": 0.2,
+    "depth_augment": true,
+    "depth_group": 3,
+
+    "batch_size": 64,
+    "load": 0,
+    "epochs": 100,
+    "continues_fials": 5,
+
+    "seed": [1,2,3,4,5], 
+    "eval_train": false,
+    
+    "deep":false,
+    "depth_ratio": 0.2,
+
+    "gnn_type": "gcn",
+    "num_layer": 3,
+    "emb_dim": [300],
+    "drop_ratio": 0.5,
+    "virtual_node": "False",
+    "residual": "False",
+    "JK": "last",
+    
+
+    "pool_num_layer": 2,
+    "final_readout": ["concate_max_pool"],
+    "pooling": ["treepool"],
+    "treepool": {
+        "activation": "tanh",
+        "layer_num": 1,
+        "ggd_type": "GGD",
+        "ggd_readout": "max",
+        "ggd_hidden_dim": 600
+    },
+    
+    "num_vocab":5000,
+
+    "date":"0813",
+    "save_every_epoch": 10,
+    "model_path": "oj/path/",
+    "learning_rate": [0.0005],
+    "device": 1
+}
