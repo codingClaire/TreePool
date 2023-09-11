@@ -2,7 +2,7 @@
 
 ## Overview
 
-The repository includes the source codes in our paper entitled "Improving Code Representation Learning via Multi-view Contrastive Graph Pooling for Abstract Syntax Tree". The model can be applied on code classification task w two dataset OJ-104 and OJ-DEEP according to our paper.  
+The repository includes the source codes in our paper entitled "Improving Code Representation Learning via Multi-view Contrastive Graph Pooling for Abstract Syntax Tree". The model can be applied on code classification task with two dataset OJ-104 and OJ-DEEP according to our paper.  
 
 
 ## Usage
